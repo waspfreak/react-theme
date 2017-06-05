@@ -1,0 +1,33 @@
+.investors{
+  background-color: $backgroundColor;
+  margin-bottom: 0;
+  &_title{
+    font-weight: lighter;
+    text-align: center;
+  }
+  .caption{
+    text-align: center;
+    font-size: 24px;
+  }
+  &_txt{
+    font-family: OpenSans;
+  	font-size: 16px;
+  	font-weight: 300;
+  	line-height: 1.75;
+  	color: #000000;
+    margin-bottom: 20px;
+  }
+  .banner-home_call_btn{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .investors{
+    .banner-home_call_btn{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+}

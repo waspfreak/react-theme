@@ -1,0 +1,35 @@
+.col.s12.m6.half-container_box{
+  margin: 0;
+  padding: 0;
+}
+  .half-container{
+    height: 620px;
+    padding: 50px;
+    &_img{
+      display: block;
+      margin: 0 auto ;
+      max-width: 181px;
+    }
+    &_title{
+      color: #fff;
+      font-size: 24px;
+      font-weight: 100;
+      font-weight: lighter;
+      letter-spacing: normal;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    &_content{
+      font-size: 14px;
+      color: #fff;
+      font-weight: 100;
+    }
+  }
+
+
+@media only screen and (max-width: 600px) {
+  .half-container{
+    height:459px;
+    padding: 30px;
+  }
+}

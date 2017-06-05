@@ -1,0 +1,49 @@
+.counter{
+  	color: $black;
+    text-align: center;
+    width: 50%;
+    height: 204px;
+    display: block;
+    float: left;
+  &_number{
+  	font-size: 80px;
+  	font-stretch: normal;
+  	font-style: normal;
+  	font-weight: 300;
+  	letter-spacing: 0px;
+  	line-height: normal;
+    margin: 0;
+    padding: 0;
+  }
+  &_number-sec{
+    font-size: 30px;
+    text-transform: capitalize;
+  }
+  &_txt{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.75;
+  display: block;
+  max-width: 200px;
+  margin: 0 auto ;
+
+  }
+}
+
+@media only screen and (max-width: 1067px) {
+  .counter{
+    &_number{
+    	font-size: 60px;
+    	letter-spacing: 0px;
+    }
+    &_number-sec{
+      font-size: 20px;
+    }
+    &_txt{
+  	font-size: 16px;
+  	line-height: 1;
+    display: block;
+
+    }
+  }
+}

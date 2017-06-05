@@ -1,0 +1,30 @@
+.simple-card{
+  width: 100%;
+  padding: 20px;
+  min-height: 210px;
+  margin-bottom: 20px;
+  position: relative;
+  &_title{
+    font-size: 24px;
+    font-weight: 300;
+    color: $black;
+    line-height: 1em;
+  }
+  &_icon-container{
+    bottom: -15px;
+    background: $blue-web;
+    left: 45%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    i.small{
+      margin-top: 24%;
+    }
+  }
+}

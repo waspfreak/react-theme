@@ -1,0 +1,27 @@
+.banner-home{
+  &_nav {
+      max-width: 960px;
+      margin: auto;
+      margin-top: 60px;
+  }
+  &_menu {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid $white;
+    height: 40px;
+    align-items: center;
+
+      li{
+        flex: 1 1 100%;
+        text-align: center;
+        span{
+          display: none;
+        }
+        a{
+          color: $white;
+          font-size: 14px;
+
+        }
+      }
+  }
+}

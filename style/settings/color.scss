@@ -1,0 +1,13 @@
+//COLOR PAGE
+.blue-web{
+  background-color: $blue-web;
+  &:hover{
+    background-color: $blue-web-hover
+  }
+}
+.blue-text{
+  color: $blue-web;
+}
+.white-text{
+  color: #fff;
+}
